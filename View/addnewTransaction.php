@@ -298,8 +298,11 @@
                             <div class="col-12 mt-5">
                                 <div class="card">
                                     <div class="card-body">
-                                        <div>
+                                        <div class="card-title">
                                             <h4 class="header-title">Thêm mới Giao dịch</h4>
+                                            <div>
+                                                <button type="button" class="btn mb-3 btn-back">Trở về</button>
+                                            </div>
                                         </div>
                                         <p class="text-muted font-14">Vui lòng điền thông tin cần thiết vào form bên dưới. Các trường có dấu <code>*</code> là bắt buộc phải điền.</p>
                                         <div class="form-group">
