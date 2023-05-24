@@ -402,7 +402,7 @@
 }
 
 .nav-btn {
-    margin: 2px 20px 0 0;
+    margin: 10px 30px 0 0;
     cursor: pointer;
 }
 
@@ -668,7 +668,7 @@
 
 .page-title {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 300;
     color: #313b3d;
     letter-spacing: 0;
     margin-right: 30px;
@@ -836,15 +836,51 @@ ul.breadcrumbs {
     margin-bottom: 25px;
 }
 
+/* Xử lý nút "Thêm mới - Tùy chọn thêm" ở giao diện "Giao dịch với khách hàng" - Nghĩa thêm 24/05 15h00 */
+.head-title-addbtn {
+    display: flex;
+    justify-content: space-between;
+}
+/* End */
+
 .header-title {
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 30px;                /* Tăng font-size - Nghĩa 24/05 15h00 */
+    font-weight: 500;               /* Tăng font-weight - Nghĩa 24/05 15h00 */
     letter-spacing: 0;
     color: #333;
     text-transform: capitalize;
     margin-bottom: 17px;
 }
+
+/* Xử lý nút "Thêm mới - Tùy chọn thêm" ở giao diện "Giao dịch với khách hàng" - Nghĩa thêm 24/05 15h00 */
+.btn-addtrans {
+    background-color: #444444;
+    border-color: #444;
+}
+
+.btn-addtrans:hover {
+    background-color: #444444;
+    opacity: 0.95;
+}
+
+.head-title-addbtn span {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.btn-businessgr {
+    margin-left: 6px;
+    margin-bottom: 16px;
+    background-color: #444444;
+    border-color: #444;
+}
+
+.btn-businessgr:hover {
+    background-color: #444444;
+    opacity: 0.95;
+}
+/* End */
 
 .single-report p {
     font-size: 12px;
