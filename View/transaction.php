@@ -65,7 +65,7 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Giao dịch với khách hàng</a></li>
+                                    <li class="active"><a href="">Giao dịch với khách hàng</a></li>
                                     <li><a href="">Đơn hàng</a></li>
                                     <li><a href="">Hợp đồng bán ra</a></li>
                                 </ul>
@@ -332,13 +332,13 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Airi Satou</td>
-                                                <td>Accountant</td>
-                                                <td>???</td>
-                                                <td>33</td>
-                                                <td>2008/11/28</td>
-                                                <td>$162,700</td>
-                                                <td>Accountant</td>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
                                                 <td>
                                                     <div>
                                                         <span id="createDate">24/05/2023 16:00</span><br>
@@ -347,7 +347,7 @@
                                                     </div>
                                                 </td>
                                                 <td><span class="status-p bg-primary">pending</span></td>
-                                                <td>???</td>
+                                                <td>...</td>
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
@@ -357,13 +357,13 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Angelica Ramos</td>
-                                                <td>Chief Executive Officer (CEO)</td>
-                                                <td>???</td>
-                                                <td>47</td>
-                                                <td>2009/10/09</td>
-                                                <td>$1,200,000</td>
-                                                <td>Accountant</td>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
                                                 <td>
                                                     <div>
                                                         <span id="createDate">24/05/2023 16:00</span><br>
@@ -371,83 +371,8 @@
                                                         <span id="endDate">25/05/2023 16:00</span>
                                                     </div>
                                                 </td>
-                                                <td><span class="status-p bg-primary">pending</span></td>                                                
-                                                <td>???</td>
-                                                <td>2</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Ashton Cox</td>
-                                                <td>Junior Technical Author</td>
-                                                <td>???</td>
-                                                <td>66</td>
-                                                <td>2009/01/12</td>
-                                                <td>$86,000</td>
-                                                <td>Accountant</td>
-                                                <td>
-                                                    <div>
-                                                        <span id="createDate">24/05/2023 16:00</span><br>
-                                                        <span id="startDate">24/05/2023 16:00</span><br>
-                                                        <span id="endDate">25/05/2023 16:00</span>
-                                                    </div>
-                                                </td>
-                                                <td><span class="status-p bg-primary">pending</span></td>                                                
-                                                <td>???</td>
-                                                <td>3</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bradley Greer</td>
-                                                <td>Software Engineer</td>
-                                                <td>???</td>
-                                                <td>41</td>
-                                                <td>2012/10/13</td>
-                                                <td>$132,000</td>
-                                                <td>Accountant</td>
-                                                <td>
-                                                    <div>
-                                                        <span id="createDate">24/05/2023 16:00</span><br>
-                                                        <span id="startDate">24/05/2023 16:00</span><br>
-                                                        <span id="endDate">25/05/2023 16:00</span>
-                                                    </div>
-                                                </td>
-                                                <td><span class="status-p bg-primary">pending</span></td>                                                
-                                                <td>???</td>
-                                                <td>2</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Brenden Wagner</td>
-                                                <td>Software Engineer</td>
-                                                <td>???</td>
-                                                <td>28</td>
-                                                <td>2011/06/07</td>
-                                                <td>$206,850</td>
-                                                <td>Accountant</td>
-                                                <td>
-                                                    <div>
-                                                        <span id="createDate">24/05/2023 16:00</span><br>
-                                                        <span id="startDate">24/05/2023 16:00</span><br>
-                                                        <span id="endDate">25/05/2023 16:00</span>
-                                                    </div>
-                                                </td>
-                                                <td><span class="status-p bg-warning">pending</span></td>                                                
-                                                <td>???</td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
@@ -457,13 +382,13 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Caesar Vance</td>
-                                                <td>Pre-Sales Support</td>
-                                                <td>???</td>
-                                                <td>29</td>
-                                                <td>2011/12/12</td>
-                                                <td>$106,450</td>
-                                                <td>Accountant</td>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
                                                 <td>
                                                     <div>
                                                         <span id="createDate">24/05/2023 16:00</span><br>
@@ -471,83 +396,8 @@
                                                         <span id="endDate">25/05/2023 16:00</span>
                                                     </div>
                                                 </td>
-                                                <td><span class="status-p bg-warning">pending</span></td>                                                
-                                                <td>???</td>
-                                                <td>2</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bruno Nash</td>
-                                                <td>Software Engineer</td>
-                                                <td>???</td>
-                                                <td>21</td>
-                                                <td>2012/03/29</td>
-                                                <td>$433,060</td>
-                                                <td>Accountant</td>
-                                                <td>
-                                                    <div>
-                                                        <span id="createDate">24/05/2023 16:00</span><br>
-                                                        <span id="startDate">24/05/2023 16:00</span><br>
-                                                        <span id="endDate">25/05/2023 16:00</span>
-                                                    </div>
-                                                </td>
-                                                <td><span class="status-p bg-warning">pending</span></td>                                                
-                                                <td>???</td>
-                                                <td>3</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Bradley Greer</td>
-                                                <td>Software Engineer</td>
-                                                <td>???</td>
-                                                <td>41</td>
-                                                <td>2012/10/13</td>
-                                                <td>$132,000</td>
-                                                <td>Accountant</td>
-                                                <td>
-                                                    <div>
-                                                        <span id="createDate">24/05/2023 16:00</span><br>
-                                                        <span id="startDate">24/05/2023 16:00</span><br>
-                                                        <span id="endDate">25/05/2023 16:00</span>
-                                                    </div>
-                                                </td>
-                                                <td><span class="status-p bg-success">complate</span></td>                                                
-                                                <td>???</td>
-                                                <td>3</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Brenden Wagner</td>
-                                                <td>Software Engineer</td>
-                                                <td>???</td>
-                                                <td>28</td>
-                                                <td>2011/06/07</td>
-                                                <td>$206,850</td>
-                                                <td>Accountant</td>
-                                                <td>
-                                                    <div>
-                                                        <span id="createDate">24/05/2023 16:00</span><br>
-                                                        <span id="startDate">24/05/2023 16:00</span><br>
-                                                        <span id="endDate">25/05/2023 16:00</span>
-                                                    </div>
-                                                </td>
-                                                <td><span class="status-p bg-success">complate</span></td>                                                
-                                                <td>???</td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
@@ -557,13 +407,13 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Caesar Vance</td>
-                                                <td>Pre-Sales Support</td>
-                                                <td>???</td>
-                                                <td>29</td>
-                                                <td>2011/12/12</td>
-                                                <td>$106,450</td>
-                                                <td>Accountant</td>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
                                                 <td>
                                                     <div>
                                                         <span id="createDate">24/05/2023 16:00</span><br>
@@ -571,9 +421,9 @@
                                                         <span id="endDate">25/05/2023 16:00</span>
                                                     </div>
                                                 </td>
-                                                <td><span class="status-p bg-success">complate</span></td>                                                
-                                                <td>???</td>
-                                                <td>2</td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
                                                         <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
@@ -582,13 +432,13 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Bruno Nash</td>
-                                                <td>Software Engineer</td>
-                                                <td>???</td>
-                                                <td>21</td>
-                                                <td>2012/03/29</td>
-                                                <td>$433,060</td>
-                                                <td>Accountant</td>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
                                                 <td>
                                                     <div>
                                                         <span id="createDate">24/05/2023 16:00</span><br>
@@ -596,9 +446,159 @@
                                                         <span id="endDate">25/05/2023 16:00</span>
                                                     </div>
                                                 </td>
-                                                <td><span class="status-p bg-success">complate</span></td>                                                
-                                                <td>???</td>
-                                                <td>2</td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
+                                                <td>
+                                                    <div>
+                                                        <span id="createDate">24/05/2023 16:00</span><br>
+                                                        <span id="startDate">24/05/2023 16:00</span><br>
+                                                        <span id="endDate">25/05/2023 16:00</span>
+                                                    </div>
+                                                </td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
+                                                <td>
+                                                    <div>
+                                                        <span id="createDate">24/05/2023 16:00</span><br>
+                                                        <span id="startDate">24/05/2023 16:00</span><br>
+                                                        <span id="endDate">25/05/2023 16:00</span>
+                                                    </div>
+                                                </td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
+                                                <td>
+                                                    <div>
+                                                        <span id="createDate">24/05/2023 16:00</span><br>
+                                                        <span id="startDate">24/05/2023 16:00</span><br>
+                                                        <span id="endDate">25/05/2023 16:00</span>
+                                                    </div>
+                                                </td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
+                                                <td>
+                                                    <div>
+                                                        <span id="createDate">24/05/2023 16:00</span><br>
+                                                        <span id="startDate">24/05/2023 16:00</span><br>
+                                                        <span id="endDate">25/05/2023 16:00</span>
+                                                    </div>
+                                                </td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
+                                                <td>
+                                                    <div>
+                                                        <span id="createDate">24/05/2023 16:00</span><br>
+                                                        <span id="startDate">24/05/2023 16:00</span><br>
+                                                        <span id="endDate">25/05/2023 16:00</span>
+                                                    </div>
+                                                </td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>May túi xách</td>
+                                                <td>...</td>
+                                                <td>...</td>
+                                                <td>Hà Trung Nghĩa</td>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td>Đào tạo</td>
+                                                <td>Lê Minh Thắng</td>
+                                                <td>
+                                                    <div>
+                                                        <span id="createDate">24/05/2023 16:00</span><br>
+                                                        <span id="startDate">24/05/2023 16:00</span><br>
+                                                        <span id="endDate">25/05/2023 16:00</span>
+                                                    </div>
+                                                </td>
+                                                <td><span class="status-p bg-primary">pending</span></td>
+                                                <td>...</td>
+                                                <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
                                                         <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
