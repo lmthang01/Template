@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Datatable - srtdash</title>
+    <title>OrderManagement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../srtdash/assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="../srtdash/assets/css/bootstrap.min.css">
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
     <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
     <link rel="stylesheet" href="../srtdash/assets/css/styles.css">
+    <link rel="stylesheet" href="../srtdash/assets/css/editstyles.css">
     <link rel="stylesheet" href="../srtdash/assets/css/responsive.css">
     <!-- Modernizr css -->
     <script src="../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -65,9 +66,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Giao dịch với khách hàng</a></li>
-                                    <li class="active"><a href="">Đơn hàng</a></li>
-                                    <li><a href="">Hợp đồng bán ra</a></li>
+                                    <li><a href="../View/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li class="active"><a href="../View/order.php">Đơn hàng</a></li>
+                                    <li><a href="../View/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
                             
@@ -305,10 +306,9 @@
                                     <h4 class="header-title">Đơn hàng</h4>
                                     <!-- AddNew & OtherOptions Btn -->
                                     <div class="head-title-btn">
-                                        <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i></i><span>Thêm mới</span></button>
-                                        <button id="btnGroupDrop" type="button" class="btn btn-primary btn-businessgr" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                                        </button>
+                                        <a href="../View/addnewOrder.php">
+                                            <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i></i><span>Thêm mới</span></button>
+                                        </a>
                                     </div>
                                 </div>
 

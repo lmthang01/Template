@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
     <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
     <link rel="stylesheet" href="../srtdash/assets/css/styles.css">
+    <link rel="stylesheet" href="../srtdash/assets/css/editstyles.css">
     <link rel="stylesheet" href="../srtdash/assets/css/responsive.css">
     <!-- Modernizr css -->
     <script src="../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -65,9 +66,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Giao dịch với khách hàng</a></li>
-                                    <li><a href="">Đơn hàng</a></li>
-                                    <li class="active"><a href="">Hợp đồng bán ra</a></li>
+                                    <li><a href="../View/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li><a href="../View/order.php">Đơn hàng</a></li>
+                                    <li class="active"><a href="../View/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
                             
@@ -305,10 +306,12 @@
                                     <h4 class="header-title">Hợp đồng bán ra</h4>
                                     <!-- AddNew & OtherOptions Btn -->
                                     <div class="head-title-btn">
-                                        <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i></i><span>Thêm mới</span></button>
-                                        <button id="btnGroupDrop" type="button" class="btn btn-primary btn-businessgr" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                                        </button>
+                                        <a href="../View/addnewContract.php">
+                                            <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Thêm mới</span></button>
+                                        </a>
+                                        <a href="../View/listContract.php">
+                                            <button type="button" class="btn btn-primary btn-addtrans mb-3 ml-2"><i class="fa fa-wrench" aria-hidden="true"></i><span>Loại HĐ</span></button>
+                                        </a>
                                     </div>
                                 </div>
 
