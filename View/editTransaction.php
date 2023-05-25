@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>OrderManagement</title>
+    <title>Form - srtdash</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../srtdash/assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="../srtdash/assets/css/bootstrap.min.css">
@@ -13,20 +13,15 @@
     <link rel="stylesheet" href="../srtdash/assets/css/metisMenu.css">
     <link rel="stylesheet" href="../srtdash/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="../srtdash/assets/css/slicknav.min.css">
-    <!-- Amcharts css -->
+    <!-- amchart css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
-    <!-- Start datatable css -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
-    <!-- Style css -->
+    <!-- others css -->
     <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
     <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
     <link rel="stylesheet" href="../srtdash/assets/css/styles.css">
     <link rel="stylesheet" href="../srtdash/assets/css/editstyles.css">
     <link rel="stylesheet" href="../srtdash/assets/css/responsive.css">
-    <!-- Modernizr css -->
+    <!-- modernizr css -->
     <script src="../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -66,9 +61,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                                    <li><a href="../View/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li class="active"><a href="../View/transaction.php">Giao dịch với khách hàng</a></li>
                                     <li><a href="../View/order.php">Đơn hàng</a></li>
-                                    <li class="active"><a href="../View/contract.php">Hợp đồng bán ra</a></li>
+                                    <li><a href="../View/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
                             
@@ -271,7 +266,7 @@
                         <div class="breadcrumbs-area clearfix">
                             <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="../View/transaction.php">Home</a></li>
                                 <li><span>Kinh doanh</span></li>
                             </ul>
                         </div>
@@ -298,150 +293,197 @@
 
             <div class="main-content-inner">
                 <div class="row">
-                    <!-- Data table start -->
-                    <div class="col-12 mt-5">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="head-title-addbtn">
-                                    <h4 class="header-title">Loại hợp đồng</h4>
-                                    <!-- AddNew & OtherOptions Btn -->
-                                    <div class="head-title-btn">
-                                        <a href="../View/addnewListContract.php">
-                                            <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i></i><span>Thêm mới</span></button>
-                                        </a>
-                                        <a href="../View/contract.php">
-                                            <button type="button" class="btn btn-addorder btn-back mb-3">Trở về</button>
-                                        </a>
+                    <div class="col-lg-12 col-ml-12">
+                        <div class="row">
+                            <!-- Tiêu đề -->
+                            <div class="col-12 mt-5">
+                                <div class="card card-header-main">
+                                    <div class="card-body">
+                                        <div class="card-header-order">
+                                            <h4 class="header-title header-title-main">Sửa giao dịch</h4>
+                                            <div class="btn-group-head-order">
+                                                <a href="../View/transaction.php">
+                                                    <button type="button" class="btn btn-addorder btn-back">Trở về</button>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="data-tables datatable-dark">
-                                    <table id="dataTable3" class="text-center table-business">
-                                        <thead class="text-capitalize">
-                                            <tr>
-                                                <th>Tên loại hợp đồng</th>
-                                                <th>Mô tả</th>
-                                                <th>Thao tác</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Đơn hàng khách lẻ</td>
-                                                <td>...</td>
-                                                <td>
-                                                    <ul class="d-flex justify-content-center">
-                                                        <li class="mr-3"><a href="#" class="text-secondary"><i class="fa fa-edit"></i></a></li>
-                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            </div>
+                            <!-- End -->
+                            <!-- Form nhập thông tin -->
+                            <div class="col-12 mt-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4 class="header-title">Thông tin giao dịch</h4>
+                                        </div>
+                                        <p class="text-muted font-14">Vui lòng điền thông tin cần thiết vào form bên dưới. Các trường có dấu <code>*</code> là bắt buộc phải điền.</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Tên giao dịch:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Mô tả:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Khách hàng:</label>
+                                                    <a href="" class="pick-btn-cus"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="form-group form-group-contact">
+                                                    <label for="example-text-input" class="col-form-label input-label">Liên hệ:</label>
+                                                    <a href="" class="pick-btn-contact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Ngày bắt đầu:</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Hạn hoàn thành:</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Ngày hoàn thành:</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label class="col-form-label input-label">Loại giao dịch:</label>
+                                                    <select class="custom-select custom-select-height">
+                                                        <option selected="selected">--Chọn loại giao dịch--</option>
+                                                        <option value="Đào tạo">Đào tạo</option>
+                                                        <option value="Tư vấn">Tư vấn</option>
+                                                        <option value="Vận chuyển">Vận chuyển</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-form-label input-label">Trạng thái:</label>
+                                                    <select class="custom-select custom-select-height">
+                                                        <option selected="selected">Chưa thực hiện</option>
+                                                        <option value="Đang thực hiện">Đang thực hiện</option>
+                                                        <option value="Đã giải quyết">Đã giải quyết</option>
+                                                        <option value="Đã hoàn thành">Đã hoàn thành</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-form-label input-label">Mức ưu tiên:</label>
+                                                    <select class="custom-select custom-select-height">
+                                                        <option selected="selected">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <!-- Mặc định trạng thái disable - Khi Trạng thái chọn "Đã hoàn thành thì active" -->
+                                                    <label class="col-form-label input-label">Kết quả:</label>
+                                                    <select class="custom-select custom-select-height">
+                                                        <option selected="selected">--Chọn--</option>
+                                                        <option value="Tư vấn sơ bộ">Tư vấn sơ bộ</option>
+                                                        <option value="Không có nhu cầu">Không có nhu cầu</option>
+                                                        <option value="Chốt khóa học">Chốt khóa học</option>
+                                                        <option value="Xác nhận tham gia lịch học">Xác nhận tham gia lịch học</option>
+                                                        <option value="Không liên hệ được nhiều lần">Không liên hệ được nhiều lần</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Số ngày nhắc việc:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Địa chỉ giao dịch:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Tài liệu giao dịch:</label>
+                                                    <input class="form-control" type="file" value="" id="example-file-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- Form thông tin giao dịch end -->
+                            <!-- Form Thông tin khách hàng start -->
+                            <div class="col-12 mt-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h4 class="header-title">Thông tin khách hàng</h4>
+                                        </div>
+                                        <p class="text-muted font-14">Vui lòng điền thông tin cần thiết vào form bên dưới. Các trường có dấu <code>*</code> là bắt buộc phải điền.</p>
+                                        <div class="btn-load">
+                                            <button type="button" class="btn btn-xs btn-outline-dark mb-3 mt-3 mr-3">Chọn Khách Hàng</button>
+                                            <button type="button" class="btn btn-xs btn-outline-dark mb-3 mt-3 mr-3" >Chọn Liên Hệ</button>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Mã khách hàng:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Tên khách hàng:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Địa chỉ văn phòng:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Số điện thoại:</label>
+                                                    <input class="form-control" type="tel" value="" id="example-tel-input">
+                                                </div>
+                                                <div class="form-group form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Email:</label>
+                                                    <input class="form-control" type="email" value="" id="example-email-input">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Mã số thuế:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Người liên hệ:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-form-label input-label">Chức vụ liên hệ:</label>
+                                                    <select class="custom-select custom-select-height">
+                                                        <option selected="selected">--Chọn--</option>
+                                                        <option value="CV1">Giám đốc</option>
+                                                        <option value="CV2">Quản lý</option>
+                                                        <option value="CV3">Thư ký</option>
+                                                        <option value="CV4">Kỹ thuật</option>
+                                                        <option value="CV5">Chuyên viên</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Số ĐT liên hệ:</label>
+                                                    <input class="form-control" type="tel" value="" id="example-tel-input">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="example-text-input" class="col-form-label input-label">Tài liệu giao dịch:</label>
+                                                    <input class="form-control" type="file" value="" id="example-file-input">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group btn-group-savetrans">
+                                            <button type="button" class="btn btn-primary btn-savetrans mt-3"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Lưu</span></button>
+                                            <button type="button" class="btn btn-primary btn-savetrans mt-3"><i class="fa fa-times-circle" aria-hidden="true"></i><span>Hủy</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form thông tin khách hàng end -->
                         </div>
                     </div>
-                    <!-- Data table end -->
                 </div>
             </div>
         </div>
@@ -449,7 +491,7 @@
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>© Copyright 2023. All right reserved.</p>
+                <p>© Copyright 2018. All right reserved.</p>
             </div>
         </footer>
         <!-- footer area end-->
@@ -643,12 +685,6 @@
     <script src="../srtdash/assets/js/jquery.slimscroll.min.js"></script>
     <script src="../srtdash/assets/js/jquery.slicknav.min.js"></script>
 
-    <!-- Start datatable js -->
-    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
-    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
     <!-- others plugins -->
     <script src="../srtdash/assets/js/plugins.js"></script>
     <script src="../srtdash/assets/js/scripts.js"></script>
