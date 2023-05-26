@@ -303,7 +303,7 @@
                                             <h4 class="header-title header-title-main">Thêm mới giao dịch</h4>
                                             <div class="btn-group-head-order">
                                                 <a href="../View/transaction.php">
-                                                    <button type="button" class="btn btn-addorder btn-back">Trở về</button>
+                                                    <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
                                             </div>
                                         </div>

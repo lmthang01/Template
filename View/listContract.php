@@ -310,7 +310,7 @@
                                             <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i></i><span>Thêm mới</span></button>
                                         </a>
                                         <a href="../View/contract.php">
-                                            <button type="button" class="btn btn-addorder btn-back mb-3">Trở về</button>
+                                            <button type="button" class="btn btn-addorder btn-back mb-3"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                         </a>
                                     </div>
                                 </div>

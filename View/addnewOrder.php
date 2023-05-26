@@ -303,7 +303,7 @@
                                             <h4 class="header-title header-title-main">Thêm mới đơn hàng</h4>
                                             <div class="btn-group-head-order">
                                                 <a href="../View/order.php">
-                                                    <button type="button" class="btn btn-addorder btn-back">Trở về</button>
+                                                    <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
                                             </div>
                                         </div>
@@ -388,11 +388,6 @@
                                                     <label for="example-text-input" class="col-form-label input-label">Ghi chú:</label>
                                                     <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
-                                                <!-- <div class="form-group btn-group-savetrans">
-                                                    <button type="button" class="btn btn-primary btn-savetrans mt-3"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Lưu</span></button>
-                                                    <button type="button" class="btn btn-primary btn-savetrans mt-3"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Lưu và thêm mới</span></button>
-                                                    <button type="button" class="btn btn-primary btn-savetrans mt-3"><i class="fa fa-times-circle" aria-hidden="true"></i><span>Hủy</span></button>
-                                                </div> -->
                                             </div>
 
                                             <div class="col-4">

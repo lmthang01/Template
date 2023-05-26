@@ -303,7 +303,7 @@
                                             <h4 class="header-title header-title-main">Sửa giao dịch</h4>
                                             <div class="btn-group-head-order">
                                                 <a href="../View/transaction.php">
-                                                    <button type="button" class="btn btn-addorder btn-back">Trở về</button>
+                                                    <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
                                             </div>
                                         </div>
@@ -330,12 +330,8 @@
                                                     <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label input-label">Khách hàng:</label>
-                                                    <a href="" class="pick-btn-cus"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                                                </div>
-                                                <div class="form-group form-group-contact">
-                                                    <label for="example-text-input" class="col-form-label input-label">Liên hệ:</label>
-                                                    <a href="" class="pick-btn-contact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                                    <label for="example-text-input" class="col-form-label input-label">Người giao việc:</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input" disabled>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-datetime-local-input" class="col-form-label input-label">Ngày bắt đầu:</label>
@@ -425,37 +421,37 @@
                                             <div class="col-6">
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Mã khách hàng:</label>
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input" disabled>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Tên khách hàng:</label>
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input" disabled>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Địa chỉ văn phòng:</label>
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input" disabled>
                                                 </div>
                                                 <div class="form-group form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Số điện thoại:</label>
-                                                    <input class="form-control" type="tel" value="" id="example-tel-input">
+                                                    <input class="form-control" type="tel" value="" id="example-tel-input" disabled>
                                                 </div>
                                                 <div class="form-group form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Email:</label>
-                                                    <input class="form-control" type="email" value="" id="example-email-input">
+                                                    <input class="form-control" type="email" value="" id="example-email-input" disabled>
                                                 </div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="form-group form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Mã số thuế:</label>
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input" disabled>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Người liên hệ:</label>
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input" disabled>
                                                 </div>
                                                 <div class="form-group">
                                                     <label class="col-form-label input-label">Chức vụ liên hệ:</label>
-                                                    <select class="custom-select custom-select-height">
+                                                    <select class="custom-select custom-select-height" disabled>
                                                         <option selected="selected">--Chọn--</option>
                                                         <option value="CV1">Giám đốc</option>
                                                         <option value="CV2">Quản lý</option>
@@ -466,7 +462,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Số ĐT liên hệ:</label>
-                                                    <input class="form-control" type="tel" value="" id="example-tel-input">
+                                                    <input class="form-control" type="tel" value="" id="example-tel-input" disabled>
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Tài liệu giao dịch:</label>

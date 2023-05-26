@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="../srtdash/assets/css/slicknav.min.css">
     <!-- amchart css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- Start datatable css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
+    <!-- Style css -->
     <!-- others css -->
     <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
     <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
@@ -303,10 +309,10 @@
                                             <h4 class="header-title header-title-main">Chi tiết giao dịch</h4>
                                             <div class="btn-group-head-order">
                                                 <a href="../View/editTransaction.php">
-                                                    <button type="button" class="btn btn-addorder btn-back">Sửa</button>
+                                                    <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-edit"></i></i><span>Sửa</span></button>
                                                 </a>
                                                 <a href="../View/transaction.php">
-                                                    <button type="button" class="btn btn-addorder btn-back">Trở về</button>
+                                                    <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
                                             </div>
                                         </div>
@@ -314,72 +320,73 @@
                                 </div>
                             </div>
                             <!-- End -->
-                            <div class="col-12 mt-5">
+                            <!-- Form thông tin start -->
+                            <div class="col-12 mt-2">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-6">
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Tên giao dịch:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">Tư vấn lộ trình</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Người giao việc:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">Hà Trung Nghĩa</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Người phụ trách:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">Lê Minh Thắng</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Ngày bắt đầu:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
-                                                        <p class="col-form-label input-label">16/05/2023 18:24:00</p>
+                                                    <div class="col-sm-7">
+                                                        <p class="col-form-label input-label">16/05/2023 18:25:00</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Ngày kết thúc:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">16/05/2023 23:59:00</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Ngày hoàn thành:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">16/05/2023 18:28:38</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Loại giao dịch:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">Gọi điện thoại</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Trạng thái:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">Đã hoàn thành</p>
                                                     </div>
                                                 </div>
@@ -387,66 +394,66 @@
 
                                             <div class="col-6">
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Mức ưu tiên:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">3</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Số ngày nhắc việc:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">...</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Mô tả:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">Tư vấn lộ trình học toeic mục tiêu 600+</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Đánh giá:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">...</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Người liên hệ:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">...</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Chức vụ:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">...</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Kết quả:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">...</p>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
-                                                    <div class="col-sm-4">
+                                                    <div class="col-sm-5">
                                                         <label for="example-text-input" class="col-form-label input-label"><strong>Địa chỉ giao dịch:</strong></label>
                                                     </div>
-                                                    <div class="col-sm-8">
+                                                    <div class="col-sm-7">
                                                         <p class="col-form-label input-label">...</p>
                                                     </div>
                                                 </div>
@@ -455,6 +462,42 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- Form thông tin end -->
+                            <!-- Form thông tin khách hàng start -->
+                            <div class="col-12 mt-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="head-title-addbtn">
+                                            <h4 class="header-title">Khách hàng</h4>
+                                        </div>
+                                        <div class="data-tables datatable-dark">
+                                            <table id="dataTable3" class="text-center table-business">
+                                                <thead class="text-capitalize">
+                                                    <tr>
+                                                        <th>Mã khách hàng</th>
+                                                        <th>Tên khách hàng</th>
+                                                        <th>Địa chỉ văn phòng</th>
+                                                        <th>Điện thoại</th>
+                                                        <th>Mô tả</th>
+                                                        <th>Ngày tạo</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>KH01</td>
+                                                        <td>Hà Trung Nghĩa</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                        <td>16/05/2023 17:34:00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form thông tin khách hàng end -->
                         </div>
                     </div>
                 </div>
@@ -657,6 +700,14 @@
     <script src="../srtdash/assets/js/metisMenu.min.js"></script>
     <script src="../srtdash/assets/js/jquery.slimscroll.min.js"></script>
     <script src="../srtdash/assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- Start datatable js -->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+    <!-- others plugins -->
 
     <!-- others plugins -->
     <script src="../srtdash/assets/js/plugins.js"></script>
