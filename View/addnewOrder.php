@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Form - srtdash</title>
+    <title>OrderManagement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../srtdash/assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="../srtdash/assets/css/bootstrap.min.css">
@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="../srtdash/assets/css/slicknav.min.css">
     <!-- amchart css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <!-- Start datatable css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
+    <!-- Style css -->
     <!-- others css -->
     <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
     <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
@@ -61,9 +67,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Giao dịch với khách hàng</a></li>
-                                    <li class="active"><a href="">Đơn hàng</a></li>
-                                    <li><a href="">Hợp đồng bán ra</a></li>
+                                    <li><a href="../View/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li class="active"><a href="../View/order.php">Đơn hàng</a></li>
+                                    <li><a href="../View/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
                             
@@ -303,6 +309,8 @@
                                             <h4 class="header-title header-title-main">Thêm mới đơn hàng</h4>
                                             <div class="btn-group-head-order">
                                                 <a href="../View/order.php">
+                                                    <button type="button" class="btn btn-addorder"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Lưu</span></button>
+                                                    <button type="button" class="btn btn-addorder"><i class="fa fa-folder-open" aria-hidden="true"></i><span>Lưu và sinh hợp đồng</span></button>
                                                     <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
                                             </div>
@@ -320,9 +328,11 @@
                                         </div>
                                         <p class="text-muted font-14">Vui lòng điền thông tin cần thiết vào form bên dưới. Các trường có dấu <code>*</code> là bắt buộc phải điền.</p>
                                         <div class="btn-load">
-                                            <!-- Tùy vào chọn lựa ở mục "Chọn tiếp theo để quyết định 1 nút active 1 nút disable - Không đồng thời cả 2" -->
+                                            <!-- Tùy vào chọn lựa ở mục "Chọn" tiếp theo để quyết định 1 nút active 1 nút disable - Không đồng thời cả 2" -->
                                             <button type="button" class="btn btn-xs btn-outline-dark mb-3 mt-3 mr-3">Chọn Khách Hàng</button>
                                             <button type="button" class="btn btn-xs btn-outline-dark mb-3 mt-3 mr-3" disabled>Chọn Hợp Đồng</button>
+                                            <!-- Sau khi "Chọn Khách Hàng" hoặc "Chọn Hợp Đồng" thì nút "Chọn Liên Hệ" sẽ active -->
+                                            <button type="button" class="btn btn-xs btn-outline-dark mb-3 mt-3 mr-3" disabled>Chọn Liên Hệ</button>
                                         </div>
                                         <div class="row">
                                             <div class="col-4">
@@ -375,10 +385,6 @@
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Mã số thuế:</label>
                                                     <input class="form-control" type="text" value="" id="example-text-input" disabled>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label input-label">Phương thức TT:</label>
-                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Hình thức TT:</label>
@@ -520,13 +526,75 @@
                                             </div>
                                         </div>
                                         <div class="btn-group-head-order">
-                                            <button type="button" class="btn btn-addorder"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Lưu</span></button>
-                                            <button type="button" class="btn btn-addorder"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Lưu và sinh hợp đồng</span></button>
+                                            <button type="button" class="btn btn-addorder"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Thêm Hàng Hóa</span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- Form nhập thông tin hàng hóa end -->
+                            <!-- Form thông tin hàng hóa start -->
+                            <div class="col-12 mt-2">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="head-title-addbtn">
+                                            <h4 class="header-title">Hàng hóa</h4>
+                                        </div>
+                                        <div class="data-tables datatable-dark">
+                                            <table id="dataTable3" class="text-center table-business">
+                                                <thead class="text-capitalize">
+                                                    <tr>
+                                                        <th>Mã hàng hóa</th>
+                                                        <th>Tên hàng hóa</th>
+                                                        <th>Mô tả</th>
+                                                        <th>Xuất xứ</th>
+                                                        <th>Hãng SX</th>
+                                                        <th>Bảo hành</th>
+                                                        <th>Đơn vị tính</th>
+                                                        <th>Giá nhập</th>
+                                                        <th>Giá xuất</th>
+                                                        <th>Thuế</th>
+                                                        <th>Thành tiền</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Form thông tin khách hàng end -->
+                            <!-- Thống kê tổng đơn hàng -->
+                            <div class="card-body card-body-order">
+                                <div class="statistics-total">
+                                    <div class="total-label">
+                                        <span>Tiền hàng:</span><br>
+                                        <span>Tiền thuế:</span><br>
+                                        <span>Tiền CK:</span><br>
+                                        <span>Tổng tiền:</span>
+                                    </div>
+                                    <div class="total-money">
+                                        <span>1.900.000</span><br>
+                                        <span>0</span><br>
+                                        <span>0</span><br>
+                                        <span>1.900.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Thống kê tổng đơn hàng end -->
                         </div>
                     </div>
                 </div>
@@ -730,6 +798,13 @@
     <script src="../srtdash/assets/js/jquery.slimscroll.min.js"></script>
     <script src="../srtdash/assets/js/jquery.slicknav.min.js"></script>
 
+    <!-- Start datatable js -->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+    
     <!-- others plugins -->
     <script src="../srtdash/assets/js/plugins.js"></script>
     <script src="../srtdash/assets/js/scripts.js"></script>

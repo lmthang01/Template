@@ -353,8 +353,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -377,8 +377,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -401,8 +401,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -425,8 +425,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -449,8 +449,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -473,8 +473,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -497,8 +497,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -521,8 +521,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -545,8 +545,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -569,8 +569,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -593,8 +593,8 @@
                                                 <td>1.900.000</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoOrder.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editOrder.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -623,6 +623,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Thống kê tổng đơn hàng end -->
                 </div>
             </div>
         </div>

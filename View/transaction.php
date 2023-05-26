@@ -350,8 +350,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -376,8 +376,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -402,8 +402,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -428,8 +428,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -454,8 +454,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -480,8 +480,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -506,8 +506,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -532,8 +532,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -558,8 +558,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -584,8 +584,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -610,8 +610,8 @@
                                                 <td>1</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-secondary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-secondary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../View/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
