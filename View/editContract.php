@@ -307,6 +307,7 @@
                                         <div class="card-header-order">
                                             <h4 class="header-title header-title-main">Chỉnh Sửa Hợp Đồng Bán Ra</h4>
                                             <div class="btn-group-head-order">
+                                                <button type="button" class="btn btn-addorder"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Lưu</span></button>
                                                 <a href="../View/contract.php">
                                                     <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
@@ -670,6 +671,25 @@
                                 </div>
                             </div>
                             <!-- Form thông tin khách hàng end -->
+                            <!-- Thống kê tổng đơn hàng -->
+                            <div class="card-body card-body-order">
+                                <div class="statistics-total">
+                                    <div class="total-label">
+                                        <span>Tổng tiền hàng:</span><br>
+                                        <span>Tiền chiết khấu:</span><br>
+                                        <span>Tiền thuế:</span><br>
+                                        <span>Tổng tiền:</span><br>
+                                        <span>Lợi nhuận:</span>
+                                    </div>
+                                    <div class="total-money">
+                                        <span>35.200.000</span><br>
+                                        <span>11.000.000</span><br>
+                                        <span>11.000.000</span><br>
+                                        <span>11.000.000</span><br>
+                                        <span>24.200.000</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
