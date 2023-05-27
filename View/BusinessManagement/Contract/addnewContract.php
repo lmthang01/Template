@@ -57,9 +57,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="ti-user"></i><span>Khách hàng</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Khách hàng</a></li>
-                                    <li><a href="">Liên hệ với khách hàng</a></li>
-                                    <li><a href="">List khách hàng</a></li>
+                                    <li><a href="../../CustomerManagement/Customer/customer.php">Khách hàng</a></li>
+                                    <li><a href="../../CustomerManagement/Contact/personContact.php">Liên hệ với khách hàng</a></li>
+                                    <li><a href="../../CustomerManagement/ListCustomer/listCustomer.php">List khách hàng</a></li>
                                 </ul>
                             </li>
 
@@ -78,7 +78,7 @@
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Báo cáo</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Biểu đồ</a></li>
+                                    <li><a href="../../Report/StatisticalChart/statisticalChart.php">Biểu đồ</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -273,8 +273,10 @@
                         <div class="breadcrumbs-area clearfix">
                             <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="index.html">Home</a></li>
-                                <li><span>Kinh doanh</span></li>
+                                <li><a href="../../CustomerManagement/Customer/customer.php">Home</a></li>
+                                <li><a href="../Transaction/transaction.php">Kinh Doanh</a></li>
+                                <li><a href="../Contract/contract.php">Hợp Đồng Bán Ra</a></li>
+                                <li><span>Thêm Mới Hợp Đồng Bán Ra</span></li>
                             </ul>
                         </div>
                     </div>

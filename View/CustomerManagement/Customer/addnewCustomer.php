@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Thêm khách hàng</title>
+    <title>OrderManagement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../../../assets/images/icon/favicon.ico">
     <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
@@ -54,9 +54,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="ti-user"></i><span>Khách hàng</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="">Khách hàng</a></li>
-                                    <li><a href="">Liên hệ với khách hàng</a></li>
-                                    <li><a href="">List khách hàng</a></li>
+                                    <li class="active"><a href="../Customer/customer.php">Khách hàng</a></li>
+                                    <li><a href="../Contact/contact.php">Liên hệ với khách hàng</a></li>
+                                    <li><a href="../ListCustomer/listCustomer.php">List khách hàng</a></li>
                                 </ul>
                             </li>
 
@@ -66,8 +66,8 @@
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
                                     <li><a href="../../BusinessManagement/Transaction/transaction.php">Giao dịch với khách hàng</a></li>
-                                    <li><a href="../Order/order.php">Đơn hàng</a></li>
-                                    <li><a href="../Contract/contract.php">Hợp đồng bán ra</a></li>
+                                    <li><a href="../../BusinessManagement/Order/order.php">Đơn hàng</a></li>
+                                    <li><a href="../../BusinessManagement/Contract/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
                             
@@ -75,7 +75,7 @@
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Báo cáo</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Biểu đồ</a></li>
+                                    <li><a href="../../Report/StatisticalChart/statisticalChart.php">Biểu đồ</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -260,8 +260,10 @@
                         <div class="breadcrumbs-area clearfix">
                             <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="../View/index.php">Home</a></li>
-                                <li><span>Khách hàng</span></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="../Customer/customer.php">Khách Hàng</a></li>
+                                <li><a href="../Customer/customer.php">Khách Hàng</a></li>
+                                <li><span>Thêm Mới Khách Hàng</span></li>
                             </ul>
                         </div>
                     </div>
@@ -296,7 +298,7 @@
                                             <div class="btn-group-head-order">
                                                 <button type="button" class="btn btn-addorder"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Lưu</span></button>
                                                 <!-- <button type="button" class="btn btn-addorder"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Lưu và sinh hợp đồng</span></button> -->
-                                                <button onclick="window.location.href='../View/customer.php'" type="button" class="btn btn-addorder btn-back">Trở về</button>
+                                                <button onclick="window.location.href='../Customer/customer.php'" type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                             </div>
                                         </div>
                                         <p class="text-muted font-14">Vui lòng điền thông tin cần thiết vào form bên dưới. Các trường có dấu <code>*</code> là bắt buộc phải điền.</p>
@@ -307,23 +309,23 @@
                                             <div class="col-6">
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Mã Khách hàng</label>
-                                                    <input class="form-control" type="text" value="KH0522" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-search-input" class="col-form-label input-label">Tên khách hàng</label>
-                                                    <input class="form-control" type="text" value="Huỳnh Nhật Trường" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-email-input" class="col-form-label input-label">Email</label>
-                                                    <input class="form-control" type="email" value="truong@gmail.com" id="example-email-input">
+                                                    <input class="form-control" type="email" value="" id="example-email-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Địa chỉ văn phòng</label>
-                                                    <input class="form-control" type="text" value="Tiền Giang" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-tel-input" class="col-form-label input-label">Số điện thoại</label>
-                                                    <input class="form-control" type="tel" value="0123345678" id="example-tel-input">
+                                                    <input class="form-control" type="tel" value="" id="example-tel-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Mã số thuế</label>
@@ -348,15 +350,15 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Mô tả</label>
-                                                    <input class="form-control" type="text" value=" " id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>                                        
                                                 <div class="form-group">
-                                                    <label for="example-date-input" class="col-form-label input-label">Ngày tạo</label>
-                                                    <input class="form-control" type="date" value="2023-05-24" id="example-date-input">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Ngày tạo</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-date-input" class="col-form-label input-label">Ngày cập nhật</label>
-                                                    <input class="form-control" type="date" value="2023-05-24" id="example-date-input">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Ngày cập nhật</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="example-text-input" class="col-form-label input-label">Hình ảnh</label>
@@ -381,7 +383,7 @@
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
+                <p>© Copyright 2018. All right reserved.</p>
             </div>
         </footer>
         <!-- footer area end-->

@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Liên hệ với khách hàng</title>
+    <title>OrderManagement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="../../srtdash/assets/images/icon/favicon.ico">
-    <link rel="stylesheet" href="../../srtdash/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/metisMenu.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/slicknav.min.css">
+    <link rel="shortcut icon" type="image/png" href="../../../assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../../../assets/css/metisMenu.css">
+    <link rel="stylesheet" href="../../../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../assets/css/slicknav.min.css">
     <!-- amcharts css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
     <!-- Start datatable css -->
@@ -21,13 +21,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="../../srtdash/assets/css/typography.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/default-css.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/styles.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/editstyles.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/responsive.css">
+    <link rel="stylesheet" href="../../../assets/css/typography.css">
+    <link rel="stylesheet" href="../../../assets/css/default-css.css">
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../../assets/css/editstyles.css">
+    <link rel="stylesheet" href="../../../assets/css/responsive.css">
     <!-- modernizr css -->
-    <script src="../../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -41,57 +41,54 @@
     <!-- preloader area end -->
     <!-- page container area start -->
     <div class="page-container">
-        <!-- sidebar menu area start -->
+        <!-- Sidebar menu area start -->
         <div class="sidebar-menu">
             <div class="sidebar-header">
-                <div class="logo">
-                    <a href="../../View/index.php"><img src="../../srtdash/assets/images/icon/logo.png" alt="logo"></a>
-                </div>
+                <!-- Logo -->
+                <div class="logo"><a id="logo" href="#" title="CRMVIET"><img class="logo-main scale-with-grid" src="https://crmviet.vn/wp-content/uploads/2020/04/logo-crmviet.png" alt="logo crmviet"></a></div>
+                <!-- <div class="logo">
+                    <a href="index.html"><img src="../../../assets/images/icon/logo.png" alt="logo"></a>
+                </div> -->
             </div>
             <div class="main-menu">
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-                           
+                            <!-- Khách hàng -->
                             <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>Khách hàng</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true">
+                                <i class="ti-user"></i><span>Khách hàng</span></a>
                                 <ul class="collapse">
-                               
-                                    <li class="active"><a href="../../View/customer.php">Khách hàng</a></li>
-                                    <li class="active"><a href="../../View/Lienhe/personcontact.php">Liên hệ với khách hàng</a></li>
-                                    <li class="active"><a href="../../View/List/listcustomer.php">Danh sách khách hàng</a></li>
+                                    <li><a href="../Customer/customer.php">Khách hàng</a></li>
+                                    <li class="active"><a href="../Contact/contact.php">Liên hệ với khách hàng</a></li>
+                                    <li><a href="../ListCustomer/listCustomer.php">List khách hàng</a></li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>Kinh doanh</span></a>
+
+                            <!-- Kinh doanh -->
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true">
+                                <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                               
-                                    <li class="active"><a href="../../View/customer.php">Giao dịch với đơn hàng</a></li>
-                                    <li class="active"><a href="../../View/customer.php">Đơn hàng</a></li>
-                                    <li class="active"><a href="../../View/customer.php">Hợp đồng bán ra</a></li>
+                                    <li><a href="../../BusinessManagement/Transaction/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li><a href="../../BusinessManagement/Order/order.php">Đơn hàng</a></li>
+                                    <li><a href="../../BusinessManagement/Contract/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>Báo cáo</span></a>
+                            
+                            <!-- Báo cáo -->
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Báo cáo</span></a>
                                 <ul class="collapse">
-                               
-                                    <li class="active"><a href="../../View/customer.php">Biểu đồ</a></li>
-                                 
+                                    <li><a href="../../Report/StatisticalChart/statisticalChart.php">Biểu đồ</a></li>
                                 </ul>
-                            <li><a href="maps.html"><i class="ti-map-alt"></i> <span>Bản đồ</span></a></li>
-                            <li><a href="invoice.html"><i class="ti-receipt"></i> <span>Invoice Summary</span></a></li>
-                          
-                            
-                            
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
-        <!-- sidebar menu area end -->
+        <!-- Sidebar menu area end -->
         <!-- main content area start -->
         <div class="main-content">
             <!-- header area start -->
@@ -182,7 +179,7 @@
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -192,7 +189,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -202,7 +199,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -212,7 +209,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img4.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img4.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -222,7 +219,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -232,7 +229,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -242,7 +239,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -266,16 +263,17 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="breadcrumbs-area clearfix">
-                            <h4 class="page-title pull-left">Liên hệ với khách hàng</h4>
+                            <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="../../View/index.php">Nhà</a></li>
-                                <li><span>Liên hệ với khách hàng</span></li>
+                                <li><a href="index.php">Home</a></li>
+                                <li><a href="../Customer/customer.php">Khách Hàng</a></li>
+                                <li><span>Liên Hệ Với Khách Hàng</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="../../srtdash/assets/images/author/avatar.png" alt="avatar">
+                            <img class="avatar user-thumb" src="../../../assets/images/author/avatar.png" alt="avatar">
                             <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Huỳnh Nhật Trường <i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item profile-option" href="#">Hướng dẫn sử dụng</a>
@@ -297,10 +295,10 @@
                         <div class="card">
                             <div class="card-body">
                             <div class="head-title-addbtn">
-                                    <h4 class="header-title">Người liên hệ</h4>
+                                    <h4 class="header-title">Liên hệ với khách hàng</h4>
                                     <!-- AddNew & OtherOptions Btn -->
                                     <div class="head-title-btn">
-                                        <a href="../../View/Lienhe/addcontact.php">
+                                        <a href="../Contact/addnewContact.php">
                                             <button type="button" class="btn btn-primary btn-addtrans mb-3"><i class="fa fa-plus-circle" aria-hidden="true"></i></i><span>Thêm mới</span></button>
                                         </a>
                                     </div>
@@ -309,248 +307,35 @@
                                     <table id="dataTable" class="text-center table-business">
                                         <thead class="text-capitalize">
                                             <tr>
-                                                <th>NGƯỜI LIÊN HỆ</th>
-                                                <th>KHÁCH HÀNG</th>
-                                                <th>CHỨC VỤ</th>
-                                                <th>EMAIL</th>
-                                                <th>ĐỊA CHỈ LIÊN HỆ</th>
-                                                <th>GIỚI TÍNH</th>
-                                                <th>SỐ ĐIỆN THOẠI</th>
-                                                <th>NGÀY SINH</th>
-                                                <th>THAO TÁC</th>
-                                                
+                                                <th>Người liên hệ</th>
+                                                <th>Khách hàng</th>
+                                                <th>Chức vụ</th>
+                                                <th>Email</th>
+                                                <th>Địa chỉ liên hệ</th>
+                                                <th>Giới tính</th>
+                                                <th>Số điện thoại</th>
+                                                <th>Ngày sinh</th>
+                                                <th>Thao tác</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                            
                                             <tr>
                                                 <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td><a href="../Customer/infoCustomer.php">Hà Trung Nghĩa</a></td>
                                                 <td>Kĩ thuật</td>
                                                 <td>truong@gmail.com</td>
                                                 <td>Cần Thơ</td>
                                                 <td>Nam</td>
                                                 <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                                      
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                                      
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                                    
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                              
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                                   
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                             
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                           
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                          
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
-                                                      
-                                            </tr>
-                                            <tr>
-                                                <td>Huỳnh Nhật Trường</td>
-                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
-                                                <td>Kĩ thuật</td>
-                                                <td>truong@gmail.com</td>
-                                                <td>Cần Thơ</td>
-                                                <td>Nam</td>
-                                                <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
                                                   
                                             </tr>
                                             <tr>
@@ -561,19 +346,176 @@
                                                 <td>Cần Thơ</td>
                                                 <td>Nam</td>
                                                 <td>0988222666</td>                                                
-                                                <td>01/01/2001</td>                                                
-                                                <td>          
-                                                    <div class="dropdown col-lg-6 col-md-4 col-sm-6">
-                                                        <button  class="fa fa-edit" type="button" data-toggle="dropdown">
-                                                            edit
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="../../View/Lienhe/addcontact.php">Thêm mới</a>
-                                                            <a class="dropdown-item" href="../../View/Lienhe/updatecontact.php">Cập nhật</a>
-                                                            <a class="dropdown-item" href="#">Xóa</a>
-                                                        </div>
-                                                    </div>
-                                                </td>  
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                      
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                    
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                   
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                      
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
+                                                  
+                                            </tr>
+                                            <tr>
+                                                <td>Huỳnh Nhật Trường</td>
+                                                <td><a href="../../View/Lienhe/customerdetails.php">Hà Trung Nghĩa</a></td>
+                                                <td>Kĩ thuật</td>
+                                                <td>truong@gmail.com</td>
+                                                <td>Cần Thơ</td>
+                                                <td>Nam</td>
+                                                <td>0988222666</td>                                                
+                                                <td>01/01/2001</td>
+                                                <td>
+                                                    <ul class="d-flex justify-content-center">
+                                                        <li class="mr-2"><a href="../Contact/infoContact.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Contact/updateContact.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
+                                                    </ul>
+                                                </td>                                                
                                                    
                                             </tr>
                                         </tbody>
@@ -597,7 +539,7 @@
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
+                <p>© Copyright 2018. All right reserved.</p>
             </div>
         </footer>
         <!-- footer area end-->
@@ -782,14 +724,14 @@
     </div>
     <!-- offset area end -->
     <!-- jquery latest version -->
-    <script src="../../srtdash/assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="../../../assets/js/vendor/jquery-2.2.4.min.js"></script>
     <!-- bootstrap 4 js -->
-    <script src="../../srtdash/assets/js/popper.min.js"></script>
-    <script src="../../srtdash/assets/js/bootstrap.min.js"></script>
-    <script src="../../srtdash/assets/js/owl.carousel.min.js"></script>
-    <script src="../../srtdash/assets/js/metisMenu.min.js"></script>
-    <script src="../../srtdash/assets/js/jquery.slimscroll.min.js"></script>
-    <script src="../../srtdash/assets/js/jquery.slicknav.min.js"></script>
+    <script src="../../../assets/js/popper.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../../assets/js/metisMenu.min.js"></script>
+    <script src="../../../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../../../assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Start datatable js -->
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
@@ -798,8 +740,8 @@
     <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
     <!-- others plugins -->
-    <script src="../../srtdash/assets/js/plugins.js"></script>
-    <script src="../../srtdash/assets/js/scripts.js"></script>
+    <script src="../../../assets/js/plugins.js"></script>
+    <script src="../../../assets/js/scripts.js"></script>
 </body>
 
 </html>

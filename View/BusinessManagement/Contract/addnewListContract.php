@@ -4,25 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Form - srtdash</title>
+    <title>OrderManagement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="../srtdash/assets/images/icon/favicon.ico">
-    <link rel="stylesheet" href="../srtdash/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/metisMenu.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/slicknav.min.css">
+    <link rel="shortcut icon" type="image/png" href="../../../assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../../../assets/css/metisMenu.css">
+    <link rel="stylesheet" href="../../../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../assets/css/slicknav.min.css">
     <!-- amchart css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
     <!-- others css -->
-    <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/styles.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/editstyles.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/responsive.css">
+    <link rel="stylesheet" href="../../../assets/css/typography.css">
+    <link rel="stylesheet" href="../../../assets/css/default-css.css">
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../../assets/css/editstyles.css">
+    <link rel="stylesheet" href="../../../assets/css/responsive.css">
     <!-- modernizr css -->
-    <script src="../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                 <!-- Logo -->
                 <div class="logo"><a id="logo" href="#" title="CRMVIET"><img class="logo-main scale-with-grid" src="https://crmviet.vn/wp-content/uploads/2020/04/logo-crmviet.png" alt="logo crmviet"></a></div>
                 <!-- <div class="logo">
-                    <a href="index.html"><img src="../srtdash/assets/images/icon/logo.png" alt="logo"></a>
+                    <a href="index.html"><img src="../../../assets/images/icon/logo.png" alt="logo"></a>
                 </div> -->
             </div>
             <div class="main-menu">
@@ -51,9 +51,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="ti-user"></i><span>Khách hàng</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Khách hàng</a></li>
-                                    <li><a href="">Liên hệ với khách hàng</a></li>
-                                    <li><a href="">List khách hàng</a></li>
+                                    <li><a href="../../CustomerManagement/Customer/customer.php">Khách hàng</a></li>
+                                    <li><a href="../../CustomerManagement/Contact/personContact.php">Liên hệ với khách hàng</a></li>
+                                    <li><a href="../../CustomerManagement/ListCustomer/listCustomer.php">List khách hàng</a></li>
                                 </ul>
                             </li>
 
@@ -62,9 +62,9 @@
                                 <a href="javascript:void(0)" aria-expanded="true">
                                 <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                                    <li><a href="../View/transaction.php">Giao dịch với khách hàng</a></li>
-                                    <li><a href="../View/order.php">Đơn hàng</a></li>
-                                    <li class="active"><a href="../View/contract.php">Hợp đồng bán ra</a></li>
+                                    <li><a href="../Transaction/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li><a href="../Order/order.php">Đơn hàng</a></li>
+                                    <li class="active"><a href="../Contract/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
                             </li>
                             
@@ -72,7 +72,7 @@
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Báo cáo</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Biểu đồ</a></li>
+                                    <li><a href="../../Report/StatisticalChart/statisticalChart.php">Biểu đồ</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -178,7 +178,7 @@
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -188,7 +188,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -198,7 +198,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -208,7 +208,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img4.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img4.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -218,7 +218,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -228,7 +228,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -238,7 +238,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -267,8 +267,11 @@
                         <div class="breadcrumbs-area clearfix">
                             <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="../View/transaction.php">Home</a></li>
-                                <li><span>Kinh doanh</span></li>
+                                <li><a href="../../CustomerManagement/Customer/customer.php">Home</a></li>
+                                <li><a href="../Transaction/transaction.php">Kinh Doanh</a></li>
+                                <li><a href="../Contract/contract.php">Hợp Đồng Bán Ra</a></li>
+                                <li><a href="../Contract/listContract.php">Loại Hợp Đồng</a></li>
+                                <li><span>Thêm Mới Loại Hợp Đồng</span></li>
                             </ul>
                         </div>
                     </div>
@@ -276,7 +279,7 @@
                     <!-- Profile Info -->
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="../srtdash/assets/images/author/avatar.png" alt="avatar">
+                            <img class="avatar user-thumb" src="../../../assets/images/author/avatar.png" alt="avatar">
                             <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Hà Trung Nghĩa<i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item profile-option" href="#">Hướng dẫn sử dụng</a>
@@ -303,7 +306,7 @@
                                         <div class="card-header-order">
                                             <h4 class="header-title header-title-main">Thêm mới loại hợp đồng</h4>
                                             <div class="btn-group-head-order">
-                                                <a href="../View/listContract.php">
+                                                <a href="../Contract/listContract.php">
                                                     <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
                                                 </a>
                                             </div>
@@ -533,18 +536,18 @@
     </div>
     <!-- offset area end -->
     <!-- jquery latest version -->
-    <script src="../srtdash/assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="../../../assets/js/vendor/jquery-2.2.4.min.js"></script>
     <!-- bootstrap 4 js -->
-    <script src="../srtdash/assets/js/popper.min.js"></script>
-    <script src="../srtdash/assets/js/bootstrap.min.js"></script>
-    <script src="../srtdash/assets/js/owl.carousel.min.js"></script>
-    <script src="../srtdash/assets/js/metisMenu.min.js"></script>
-    <script src="../srtdash/assets/js/jquery.slimscroll.min.js"></script>
-    <script src="../srtdash/assets/js/jquery.slicknav.min.js"></script>
+    <script src="../../../assets/js/popper.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../../assets/js/metisMenu.min.js"></script>
+    <script src="../../../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../../../assets/js/jquery.slicknav.min.js"></script>
 
     <!-- others plugins -->
-    <script src="../srtdash/assets/js/plugins.js"></script>
-    <script src="../srtdash/assets/js/scripts.js"></script>
+    <script src="../../../assets/js/plugins.js"></script>
+    <script src="../../../assets/js/scripts.js"></script>
 </body>
 
 </html>

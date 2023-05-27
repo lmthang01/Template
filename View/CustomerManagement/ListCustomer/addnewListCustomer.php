@@ -6,13 +6,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Danh sách khách hàng</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="../../srtdash/assets/images/icon/favicon.ico">
-    <link rel="stylesheet" href="../../srtdash/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/metisMenu.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/slicknav.min.css">
+    <link rel="shortcut icon" type="image/png" href="../../../assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../../../assets/css/metisMenu.css">
+    <link rel="stylesheet" href="../../../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../assets/css/slicknav.min.css">
     <!-- amcharts css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
     <!-- Start datatable css -->
@@ -21,12 +21,12 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.jqueryui.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="../../srtdash/assets/css/typography.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/default-css.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/styles.css">
-    <link rel="stylesheet" href="../../srtdash/assets/css/responsive.css">
+    <link rel="stylesheet" href="../../../assets/css/typography.css">
+    <link rel="stylesheet" href="../../../assets/css/default-css.css">
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../../assets/css/responsive.css">
     <!-- modernizr css -->
-    <script src="../../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
         <div class="sidebar-menu">
             <div class="sidebar-header">
                 <div class="logo">
-                    <a href="../../View/index.php"><img src="../../srtdash/assets/images/icon/logo.png" alt="logo"></a>
+                    <a href="../../View/index.php"><img src="../../../assets/images/icon/logo.png" alt="logo"></a>
                 </div>
             </div>
             <div class="main-menu">
@@ -181,7 +181,7 @@
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -191,7 +191,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -201,7 +201,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -211,7 +211,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img4.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img4.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -221,7 +221,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -231,7 +231,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -241,7 +241,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -274,7 +274,7 @@
                     </div>
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="../../srtdash/assets/images/author/avatar.png" alt="avatar">
+                            <img class="avatar user-thumb" src="../../../assets/images/author/avatar.png" alt="avatar">
                             <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Huỳnh Nhật Trường <i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item profile-option" href="#">Hướng dẫn sử dụng</a>
@@ -300,14 +300,14 @@
                                         <h4 class="login-form-head ">Nhập danh sách</h4>
                                         <div class="form-group">
                                             <label for="example-text-input" class="col-form-label">TÊN NHÓM</label>
-                                            <input class="form-control" type="text" value="Học toeic" id="example-text-input">
+                                            <input class="form-control" type="text" value="KH không thường xuyên" id="example-text-input">
                                         </div>
                                         <div class="form-group">
                                             <label for="example-search-input" class="col-form-label">MÔ TẢ</label>
-                                            <input class="form-control" type="text" value="Sinh viên có nhu cầu học toeic">
+                                            <input class="form-control" type="text" value="KH sử dụng dịch vụ từ 3 tháng trở xuống trong 6 tháng theo dõi" id="example-text-input">
                                         </div>
                                         
-                                        <button type="submit" class="btn btn-dark mt-4 pr-4 pl-4">Cập nhật</button>
+                                        <button type="submit" class="btn btn-dark mt-4 pr-4 pl-4">Lưu</button>
                                             <!-- <a  class="btn btn-outline-primary mt-4 pr-4 pl-4"> -->
                                                 <!-- <input  type="button" value="Hủy"> -->
                                         <button onclick="window.location.href='../../View/List/listcustomer.php'" type="button" class="btn btn-outline-dark mt-4 pr-4">Hủy </button>
@@ -514,14 +514,14 @@
     </div>
     <!-- offset area end -->
     <!-- jquery latest version -->
-    <script src="../../srtdash/assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="../../../assets/js/vendor/jquery-2.2.4.min.js"></script>
     <!-- bootstrap 4 js -->
-    <script src="../../srtdash/assets/js/popper.min.js"></script>
-    <script src="../../srtdash/assets/js/bootstrap.min.js"></script>
-    <script src="../../srtdash/assets/js/owl.carousel.min.js"></script>
-    <script src="../../srtdash/assets/js/metisMenu.min.js"></script>
-    <script src="../../srtdash/assets/js/jquery.slimscroll.min.js"></script>
-    <script src="../../srtdash/assets/js/jquery.slicknav.min.js"></script>
+    <script src="../../../assets/js/popper.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../../assets/js/metisMenu.min.js"></script>
+    <script src="../../../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../../../assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Start datatable js -->
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
@@ -530,8 +530,8 @@
     <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
     <!-- others plugins -->
-    <script src="../../srtdash/assets/js/plugins.js"></script>
-    <script src="../../srtdash/assets/js/scripts.js"></script>
+    <script src="../../../assets/js/plugins.js"></script>
+    <script src="../../../assets/js/scripts.js"></script>
 </body>
 
 </html>

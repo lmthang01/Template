@@ -4,30 +4,30 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Cập nhật khách hàng</title>
+    <title>OrderManagement</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="../srtdash/assets/images/icon/favicon.ico">
-    <link rel="stylesheet" href="../srtdash/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/themify-icons.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/metisMenu.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/slicknav.min.css">
+    <link rel="shortcut icon" type="image/png" href="../../../assets/images/icon/favicon.ico">
+    <link rel="stylesheet" href="../../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../assets/css/themify-icons.css">
+    <link rel="stylesheet" href="../../../assets/css/metisMenu.css">
+    <link rel="stylesheet" href="../../../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../assets/css/slicknav.min.css">
     <!-- amchart css -->
     <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
     <!-- others css -->
-    <link rel="stylesheet" href="../srtdash/assets/css/typography.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/default-css.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/styles.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/responsive.css">
-    <link rel="stylesheet" href="../srtdash/assets/css/editstyles.css">
+    <link rel="stylesheet" href="../../../assets/css/typography.css">
+    <link rel="stylesheet" href="../../../assets/css/default-css.css">
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <link rel="stylesheet" href="../../../assets/css/responsive.css">
+    <link rel="stylesheet" href="../../../assets/css/editstyles.css">
     <!-- modernizr css -->
-    <script src="../srtdash/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../../../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
     <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">You are using an <strong>outdatetime-locald</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- preloader area start -->
     <div id="preloader">
@@ -36,55 +36,54 @@
     <!-- preloader area end -->
     <!-- page container area start -->
     <div class="page-container">
-        <!-- sidebar menu area start -->
+        <!-- Sidebar menu area start -->
         <div class="sidebar-menu">
             <div class="sidebar-header">
-                <div class="logo">
-                    <a href="../View/index.php"><img src="../srtdash/assets/images/icon/logo.png" alt="logo"></a>
-                </div>
+                <!-- Logo -->
+                <div class="logo"><a id="logo" href="#" title="CRMVIET"><img class="logo-main scale-with-grid" src="https://crmviet.vn/wp-content/uploads/2020/04/logo-crmviet.png" alt="logo crmviet"></a></div>
+                <!-- <div class="logo">
+                    <a href="index.html"><img src="../../../assets/images/icon/logo.png" alt="logo"></a>
+                </div> -->
             </div>
             <div class="main-menu">
                 <div class="menu-inner">
-                <nav>
+                    <nav>
                         <ul class="metismenu" id="menu">
-                           
+                            <!-- Khách hàng -->
                             <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>Khách hàng</span></a>
-                                    <ul class="collapse">
-                               
-                               <li class="active"><a href="../View/customer.php">Khách hàng</a></li>
-                               <li class="active"><a href="../View/Lienhe/personcontact.php">Liên hệ với khách hàng</a></li>
-                               <li class="active"><a href="../View/List/listcustomer.php">Danh sách khách hàng</a></li>
-                           </ul>
-                            </li>
-                            <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>Kinh doanh</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true">
+                                <i class="ti-user"></i><span>Khách hàng</span></a>
                                 <ul class="collapse">
-                               
-                                    <li class="active"><a href="../View/customer.php">Giao dịch với đơn hàng</a></li>
-                                    <li class="active"><a href="../View/customer.php">Đơn hàng</a></li>
-                                    <li class="active"><a href="../View/customer.php">Hợp đồng bán ra</a></li>
+                                    <li class="active"><a href="../Customer/customer.php">Khách hàng</a></li>
+                                    <li><a href="../Contact/contact.php">Liên hệ với khách hàng</a></li>
+                                    <li><a href="../ListCustomer/listCustomer.php">List khách hàng</a></li>
                                 </ul>
                             </li>
-                            <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>Báo cáo</span></a>
+
+                            <!-- Kinh doanh -->
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true">
+                                <i class="fa fa-briefcase"></i><span>Kinh doanh</span></a>
                                 <ul class="collapse">
-                               
-                                    <li class="active"><a href="../View/customer.php">Biểu đồ</a></li>
-                                 
+                                    <li><a href="../../BusinessManagement/Transaction/transaction.php">Giao dịch với khách hàng</a></li>
+                                    <li><a href="../../BusinessManagement/Order/order.php">Đơn hàng</a></li>
+                                    <li><a href="../../BusinessManagement/Contract/contract.php">Hợp đồng bán ra</a></li>
                                 </ul>
-                            <li><a href="maps.html"><i class="ti-map-alt"></i> <span>Bản đồ</span></a></li>
-                            <li><a href="invoice.html"><i class="ti-receipt"></i> <span>Invoice Summary</span></a></li>
-                          
+                            </li>
+                            
+                            <!-- Báo cáo -->
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Báo cáo</span></a>
+                                <ul class="collapse">
+                                    <li><a href="">Biểu đồ</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
-        <!-- sidebar menu area end -->
+        <!-- Sidebar menu area end -->
         <!-- main content area start -->
         <div class="main-content">
             <!-- header area start -->
@@ -175,7 +174,7 @@
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -185,7 +184,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -195,7 +194,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -205,7 +204,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img4.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img4.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -215,7 +214,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img2.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img2.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -225,7 +224,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img1.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img1.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -235,7 +234,7 @@
                                         </a>
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
-                                                <img src="../srtdash/assets/images/author/author-img3.jpg" alt="image">
+                                                <img src="../../../assets/images/author/author-img3.jpg" alt="image">
                                             </div>
                                             <div class="notify-text">
                                                 <p>Aglae Mayer</p>
@@ -259,16 +258,18 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="breadcrumbs-area clearfix">
-                            <h4 class="page-title pull-left">KHÁCH HÀNG</h4>
+                            <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
-                                <li><a href="../View/index.php">Nhà</a></li>
-                                <li><span>Cập nhật thông tin khách hàng</span></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="../Customer/customer.php">Khách Hàng</a></li>
+                                <li><a href="../Customer/customer.php">Khách Hàng</a></li>
+                                <li><span>Cập Nhật Thông Tin Khách Hàng</span></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="../srtdash/assets/images/author/avatar.png" alt="avatar">
+                            <img class="avatar user-thumb" src="../../../assets/images/author/avatar.png" alt="avatar">
                             <h4 class="user-name dropdown-toggle" data-toggle="dropdown">Huỳnh Nhật Trường <i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item profile-option" href="#">Hướng dẫn sử dụng</a>
@@ -287,18 +288,29 @@
                 <div class="row">
                 <div class="col-lg-12">
                         <div class="row">
-                  
+                            <!-- Tiêu đề -->
+                            <div class="col-12 mt-5">
+                                <div class="card card-header-main">
+                                    <div class="card-body">
+                                        <div class="card-header-order">
+                                            <h4 class="header-title header-title-main">Cập Nhật Thông Tin Khách Hàng</h4>
+                                            <div class="btn-group-head-order">
+                                                <button onclick="window.location.href='#'" type="button" class="btn btn-addorder"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Cập nhật</span></button>
+                                                <a href="../Customer/customer.php">
+                                                    <button type="button" class="btn btn-addorder btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i><span>Trở về</span></button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End -->
                             <!-- Form nhập thông tin liên hệ start-->
-                            <div class="col-12 mt-6">
+                            <div class="col-12 mt-2">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="card-header-order">
-                                            <h4 class="header-title">Cập nhật khách hàng</h4>
-                                            <div class="btn-group-head-order">
-                                                <button onclick="window.location.href='../View/Lienhe/customerdetails.php'" type="button" class="btn btn-addorder"><i class="fa fa-floppy-o" aria-hidden="true"></i><span>Cập nhật</span></button>
-                                                <!-- <button type="button" class="btn btn-addorder"><i class="fa fa-plus-circle" aria-hidden="true"></i><span>Lưu và sinh hợp đồng</span></button> -->
-                                                <button onclick="window.location.href='../View/customer.php'" type="button" class="btn btn-addorder btn-back">Trở về</button>
-                                            </div>
+                                            <h4 class="header-title">Thông Tin Cơ Bản</h4>
                                         </div>
                                         <p class="text-muted font-14">Vui lòng điền thông tin cần thiết vào form bên dưới. Các trường có dấu <code>*</code> là bắt buộc phải điền.</p>
                                         
@@ -307,27 +319,27 @@
 
                                             <div class="col-6">
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label">Mã Khách hàng</label>
-                                                    <input class="form-control" type="text" value="KH0521" id="example-text-input">
+                                                    <label for="example-text-input" class="col-form-label input-label">Mã Khách hàng</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-search-input" class="col-form-label">Tên khách hàng</label>
-                                                    <input class="form-control" type="text" value="Hà Trung Nghĩa" id="example-text-input">
+                                                    <label for="example-search-input" class="col-form-label input-label">Tên khách hàng</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-email-input" class="col-form-label">Email</label>
-                                                    <input class="form-control" type="email" value="nghia@gmail.com" id="example-email-input">
+                                                    <label for="example-email-input" class="col-form-label input-label">Email</label>
+                                                    <input class="form-control" type="email" value="" id="example-email-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label">Địa chỉ văn phòng</label>
-                                                    <input class="form-control" type="text" value="Tiền Giang" id="example-text-input">
+                                                    <label for="example-text-input" class="col-form-label input-label">Địa chỉ văn phòng</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-tel-input" class="col-form-label">Số điện thoại</label>
-                                                    <input class="form-control" type="tel" value="0827423388" id="example-tel-input">
+                                                    <label for="example-tel-input" class="col-form-label input-label">Số điện thoại</label>
+                                                    <input class="form-control" type="tel" value="" id="example-tel-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label">Mã số thuế</label>
+                                                    <label for="example-text-input" class="col-form-label input-label">Mã số thuế</label>
                                                     <input type="text" class="form-control" id="example-text-input" value="">
                                                 </div>        
                                             </div>
@@ -335,33 +347,33 @@
                                             <div class="col-6 ">
                                                 
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label">Người liên hệ</label>
+                                                    <label for="example-text-input" class="col-form-label input-label">Người liên hệ</label>
                                                     <input type="text" class="form-control" id="example-text-input" value="">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label class="col-form-label">Chức vụ</label>
-                                                    <select class="form-control">
+                                                    <label class="col-form-label input-label">Chức vụ:</label>
+                                                    <select class="custom-select custom-select-height">
                                                         <option>---Chọn chức vụ--</option>
                                                         <option>Giám đốc</option>
                                                         <option>Phó giám đốc</option>
                                                         <option>Trưởng phòng kỹ thuật</option>
                                                         <option>Thu mua</option>
                                                     </select>
-                                                </div> 
+                                                </div>
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label">Mô tả</label>
-                                                    <input class="form-control" type="text" value=" " id="example-text-input">
+                                                    <label for="example-text-input" class="col-form-label input-label">Mô tả</label>
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>                                        
                                                 <div class="form-group">
-                                                    <label for="example-date-input" class="col-form-label">Ngày tạo</label>
-                                                    <input class="form-control" type="date" value="2023-05-22" id="example-date-input">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Ngày tạo</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-date-input" class="col-form-label">Ngày cập nhật</label>
-                                                    <input class="form-control" type="date" value="2023-05-23" id="example-date-input">
+                                                    <label for="example-datetime-local-input" class="col-form-label input-label">Ngày cập nhật</label>
+                                                    <input class="form-control" type="datetime-local" value="" id="example-datetime-local-input">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="example-text-input" class="col-form-label">Hình ảnh</label>
+                                                    <label for="example-text-input" class="col-form-label input-label">Hình ảnh</label>
                                                     <input class="form-control" type="file" value="" id="example-file-input">
                                                 </div>    
                                             </div>
@@ -383,7 +395,7 @@
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
+                <p>© Copyright 2018. All right reserved.</p>
             </div>
         </footer>
         <!-- footer area end-->
@@ -568,18 +580,18 @@
     </div>
     <!-- offset area end -->
     <!-- jquery latest version -->
-    <script src="../srtdash/assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="../../../assets/js/vendor/jquery-2.2.4.min.js"></script>
     <!-- bootstrap 4 js -->
-    <script src="../srtdash/assets/js/popper.min.js"></script>
-    <script src="../srtdash/assets/js/bootstrap.min.js"></script>
-    <script src="../srtdash/assets/js/owl.carousel.min.js"></script>
-    <script src="../srtdash/assets/js/metisMenu.min.js"></script>
-    <script src="../srtdash/assets/js/jquery.slimscroll.min.js"></script>
-    <script src="../srtdash/assets/js/jquery.slicknav.min.js"></script>
+    <script src="../../../assets/js/popper.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/owl.carousel.min.js"></script>
+    <script src="../../../assets/js/metisMenu.min.js"></script>
+    <script src="../../../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../../../assets/js/jquery.slicknav.min.js"></script>
 
     <!-- others plugins -->
-    <script src="../srtdash/assets/js/plugins.js"></script>
-    <script src="../srtdash/assets/js/scripts.js"></script>
+    <script src="../../../assets/js/plugins.js"></script>
+    <script src="../../../assets/js/scripts.js"></script>
 </body>
 
 </html>

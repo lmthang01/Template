@@ -57,8 +57,8 @@
                                 <i class="ti-user"></i><span>Khách hàng</span></a>
                                 <ul class="collapse">
                                     <li class="active"><a href="../Customer/customer.php">Khách hàng</a></li>
-                                    <li><a href="../Contact/contact.php">Liên hệ với khách hàng</a></li>
-                                    <li><a href="../ListCustomer/listcustomer.php">List khách hàng</a></li>
+                                    <li><a href="../Contact/personContact.php">Liên hệ với khách hàng</a></li>
+                                    <li><a href="../ListCustomer/listCustomer.php">List khách hàng</a></li>
                                 </ul>
                             </li>
 
@@ -77,7 +77,7 @@
                             <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span>Báo cáo</span></a>
                                 <ul class="collapse">
-                                    <li><a href="">Biểu đồ</a></li>
+                                    <li><a href="../../Report/StatisticalChart/statisticalChart.php">Biểu đồ</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -273,6 +273,7 @@
                             <h4 class="page-title pull-left">Dashboard</h4>
                             <ul class="breadcrumbs pull-left">
                                 <li><a href="index.html">Home</a></li>
+                                <li><a href="../Customer/customer.php">Khách Hàng</a></li>
                                 <li><span>Khách Hàng</span></li>
                             </ul>
                         </div>
@@ -347,8 +348,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -368,8 +369,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -389,8 +390,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -410,8 +411,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -431,8 +432,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -452,8 +453,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -473,8 +474,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -494,8 +495,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -515,8 +516,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -536,8 +537,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>
@@ -557,8 +558,8 @@
                                                 <td>...</td>
                                                 <td>
                                                     <ul class="d-flex justify-content-center">
-                                                        <li class="mr-2"><a href="../Transaction/infoTransaction.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-                                                        <li class="mr-2"><a href="../Transaction/editTransaction.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/infoCustomer.php" class="text-primary"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+                                                        <li class="mr-2"><a href="../Customer/updateCustomer.php" class="text-primary"><i class="fa fa-edit"></i></a></li>
                                                         <li><a href="#" class="text-danger"><i class="ti-trash"></i></a></li>
                                                     </ul>
                                                 </td>

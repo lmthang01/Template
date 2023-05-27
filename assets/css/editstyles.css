@@ -164,3 +164,9 @@
 .form-group-contact {
     margin-bottom: 7px;
 }
+/*  */
+.head-product-contact {
+    display: flex;
+    justify-content: space-between;
+}
+/*  */
